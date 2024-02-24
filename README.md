@@ -48,6 +48,8 @@ When you run the Ingress Controller by using a DaemonSet, Kubernetes will create
 
 ```
  $ kubectl apply -f daemon-set/nginx-ingress.yaml
+Here we run
+kubectl apply -f deployment/
  ```
 
 ## 5. Check that the Ingress Controller is Running
